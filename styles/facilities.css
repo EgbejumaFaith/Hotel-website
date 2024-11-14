@@ -147,8 +147,9 @@ nav ul li a:hover {
   width: 20px;
 }
 
+/* STYLES FOR THE MAIN SECTION */
+
 .main-section {
-  /* width: 80%; */
   text-align: center;
   margin: 0 auto;
   word-spacing: 4px;
@@ -168,7 +169,6 @@ nav ul li a:hover {
 }
 
 .main-section .section-img-container {
-  /* border: 1px solid black; */
   position: relative;
   margin-bottom: 40px;
 }
