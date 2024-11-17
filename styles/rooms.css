@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #e0b973;
+  --secondary: #14274a;
+}
+.container {
+  width: 100%;
+}
+
+/* STYLES FOR FIRST SECTION */
+
+.first-section {
+  height: 100vh;
+  background-image: url("../Assets/rooms-overlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  height: 100px;
+  width: 100px;
+}
+
+.logo-container img {
+  height: 80px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.nav-links {
+  align-self: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-bottom: 2;
+}
+
+nav ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+}
+
+.overlay-headings {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.overlay-content {
+  color: #fff;
+  line-height: 45px;
+  align-self: center;
+}
+
+.overlay-content h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.overlay-content h4 {
+  font-family: "EB Garamond", serif;
+  color: #fff;
+  font-size: 90px;
+  margin-top: 8px;
+}
+
+.overlay-content h5 {
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.overlay-content p {
+  line-height: 20px;
+}
+
+.overlay-content span {
+  display: block;
+}
+
+.book-icon {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-left: 45%;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.book-icon img {
+  width: 110px;
+  height: 20px;
+}
+
+.scroll {
+  margin-top: 55px;
+}
+
+.scroll h2 {
+  margin-left: 49%;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-top: 15px;
+  margin-right: 80px;
+}
+
+.scroll-img {
+  margin-left: 50%;
+}
+
+.scroll-img img {
+  height: 20px;
+  width: 20px;
+}
+
+.main-section {
+  text-align: center;
+  margin: 0 auto;
+  word-spacing: 4px;
+}
+.main-section .top-text h2 {
+  font-family: "EB Garamond", serif;
+  color: var(--secondary);
+  font-size: 30px;
+  margin: 25px 0px;
+}
+
+.main-section .top-text p {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--secondary);
+  margin-bottom: 20px;
+}
+
+.main-section .border-container {
+  margin-bottom: 250px;
+}
+
+.main-section .section-img-container {
+  position: relative;
+  margin-bottom: 40px;
+  height: 100vh;
+}
+
+.section-img-container .img-container img {
+  width: 80%;
+  border-left: 1px solid var(--secondary);
+  box-shadow: 10px 10px 5px 0px rgba(247, 230, 230, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(247, 230, 230, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(247, 230, 230, 0.75);
+}
+
+.main-section .section-img-container h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  display: inline-block;
+  width: 80%;
+  position: absolute;
+  bottom: -92px;
+  right: 126px;
+  padding: 20px 130px;
+  background-color: var(--secondary);
+  font-weight: 1000;
+}
+
+.border-container .pg-icon {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: -60px;
+  left: 600px;
+}
+
+.border-container .pg-icon img {
+  height: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.price-div {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 30px 0;
+  gap: 30%;
+  margin-bottom: 50px;
+  border: 1px solid var(--secondary);
+  border-top: 0;
+
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 10px 10px 5px 0px rgba(247, 230, 230, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(247, 230, 230, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(247, 230, 230, 0.75);
+}
+
+.price-div button {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 5px;
+  cursor: pointer;
+}
+
+.cross-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cross-div h3 {
+  color: var(--secondary);
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cross {
+  width: 40px;
+  height: 40px;
+}
+
+.cross img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.Testimonials {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  height: 20vh;
+  text-align: center;
+}
+
+.Testimonials h2 {
+  font-family: "EB Garamond", serif;
+  color: var(--secondary);
+  font-weight: 100px;
+  margin-bottom: 15px;
+}
+
+.Testimonials h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: var(--secondary);
+  margin-bottom: 10px;
+}
+
+.Testimonials h3 {
+  font-size: 15px;
+}
+
+.Testimonials h4 {
+  font-size: 12px;
+}
+
+.Testimonials .direction {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.Testimonials .direction img {
+  width: 30px;
+  height: 30px;
+}
+
+/* STYLES FOR THE FOOTER  */
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: var(--secondary);
+  position: relative;
+}
+
+footer .box {
+  width: 100px;
+  height: 100px;
+  background-color: var(--secondary);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 150px;
+  left: 46%;
+}
+
+.footer-content {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 70px;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.footer-content .company-address h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 19px;
+  line-height: 15px;
+}
+
+.footer-content .company-address span {
+  font-family: "EB Garamond", serif;
+  font-size: 10px;
+  font-weight: normal;
+  margin-left: 14px;
+}
+
+.footer-content .company-address p {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.footer-content .footer-li li {
+  list-style: none;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-content .handle-logo {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer-content .footer-img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer-content .handle-logo h3,
+.search-bar h2 {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.footer-content .footer-img img {
+  margin-left: 30px;
+  width: 10px;
+}
+.footer-content .search-bar-content {
+  border: 2px solid var(--primary);
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.footer-content .search-bar-content input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 3px;
+}
+
+.footer-content .search-bar-content button {
+  background-color: var(--primary);
+  padding: 5px;
+  color: var(--secondary);
+  border: 1px solid var(--primary);
+  cursor: pointer;
+}
+
+.footer-content .search-bar-content button:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+}

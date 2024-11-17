@@ -14,7 +14,6 @@
 }
 .container {
   width: 100%;
-  /* margin: auto; */
 }
 
 /* STYLES FOR FIRST SECTION */
@@ -326,6 +325,7 @@ footer .box {
   background-color: var(--primary);
   padding: 5px;
   color: var(--secondary);
+  border: 1px solid var(--primary);
   cursor: pointer;
 }
 
