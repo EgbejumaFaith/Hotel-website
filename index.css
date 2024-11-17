@@ -14,7 +14,6 @@
 }
 .container {
   width: 100%;
-  /* margin: auto; */
 }
 
 /* STYLES FOR FIRST SECTION */
@@ -348,6 +347,7 @@ footer .box {
 
 .footer-content .search-bar-content button {
   background-color: var(--primary);
+  border: 1px solid var(--primary);
   padding: 5px;
   color: var(--secondary);
   cursor: pointer;
