@@ -76,6 +76,10 @@ nav ul li a:hover {
 
 /* STYLES FOR SECOND SECTION  */
 
+.second-section {
+  margin-bottom: 200px;
+}
+
 .top-text {
   margin-top: 150px;
   width: 80%;
@@ -91,16 +95,21 @@ nav ul li a:hover {
 
 .top-text p {
   font-family: "Montserrat", sans-serif;
-  margin-left: 140px;
+  margin-left: 145px;
   margin-top: 10px;
 }
 
 .second-section .flex-container {
   color: var(--secondary);
-  width: 80%;
+  width: 100%;
   margin-top: 120px;
   display: flex;
   justify-content: space-around;
+  /* margin-left: 25px; */
+}
+
+.flex-container .text-content {
+  margin-right: 70px;
 }
 
 .flex-container .text-content p {
@@ -121,6 +130,27 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   gap: 15px;
+  margin: 20px 0;
+}
+
+.flex-container .form-content {
+  margin-bottom: 20px;
+}
+
+.flex-container .form-content label,
+input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.flex-container .form-content label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.flex-container .form-content input {
+  padding: 5px 100px 5px 2px;
+  outline: none;
 }
 
 .arrow-flex h2 {
@@ -131,6 +161,126 @@ nav ul li a:hover {
 .arrow-div h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  font-size: 20px;
-  margin-top: 15px;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.form-content textarea {
+  outline: none;
+  padding: 5px 0 0 5px;
+  height: 150px;
+  width: 270px;
+}
+
+.flex-container .contact-form .botton {
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 20px;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: #fff;
+  margin-left: 180px;
+  cursor: pointer;
+}
+
+/* STYLES FOR THE FOOTER  */
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: var(--secondary);
+  position: relative;
+}
+
+footer .box {
+  width: 100px;
+  height: 100px;
+  background-color: var(--secondary);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 150px;
+  left: 46%;
+}
+
+.footer-content {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 70px;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.footer-content .company-address h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 19px;
+  line-height: 15px;
+}
+
+.footer-content .company-address span {
+  font-family: "EB Garamond", serif;
+  font-size: 10px;
+  font-weight: normal;
+  margin-left: 14px;
+}
+
+.footer-content .company-address p {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.footer-content .footer-li li {
+  list-style: none;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-content .handle-logo {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer-content .footer-img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer-content .handle-logo h3,
+.search-bar h2 {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.footer-content .footer-img img {
+  margin-left: 30px;
+  width: 10px;
+}
+.footer-content .search-bar-content {
+  border: 2px solid var(--primary);
+  border-radius: 3px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.footer-content .search-bar-content input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 3px;
+}
+
+.footer-content .search-bar-content button {
+  background-color: var(--primary);
+  padding: 5px;
+  color: var(--secondary);
+  border: 1px solid var(--primary);
+  cursor: pointer;
+}
+
+.footer-content .search-bar-content button:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
 }
